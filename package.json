@@ -1,0 +1,19 @@
+{
+  "name": "reproduce-rollup-issue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@types/fbjs": "^3.0.10",
+    "fbjs": "^3.0.5"
+  }
+}
