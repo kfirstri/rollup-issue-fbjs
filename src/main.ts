@@ -1,4 +1,7 @@
-import UB from 'fbjs/lib/UnicodeBidi.js';
+import d from "fbjs/lib/UnicodeBidi.js";
 
-console.log(UB);
+console.log(d);
 
+const res = d.firstStrongChar('Test!!!');
+
+console.log(res);
